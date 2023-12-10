@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/map.css"> <!--Lien CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/> <!--Lien Leaflet-->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"> <!--Lien icons-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.6.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Map</title>
+</head>
+<body>
+
+    <header>
+        <i class='bx bxs-leaf'></i>
+
+        <ul class="navlinks">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Actualités</a></li>
+            <li><a href="#">Nous contacter</a></li>
+            <li><a href="#">À propos de nous</a></li>
+        </ul>
+
+        <div class="login">
+            <a href="#" class="btn-login">Se connecter</a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+
+    <section class="main">
+        <div class="main-content">
+            <h1>Sécurité Routière <br><span>France</span></h1>
+            <p>Bienvenue sur <span>Sécurité Routière France</span> – Votre référence pour la sécurité routière en France. 
+                Explorez les données actualisées, les statistiques clés et les conseils pratiques 
+                pour une conduite plus sûre. Ensemble, œuvrons pour des routes plus sécurisées. 
+                Restez informé(e), conduisez prudemment.
+            </p>
+
+            <div class="button">
+                <a href="#" class="btn">QLQ CHOSE</a>
+            </div>
+        </div>
+    </section>
+
+    
+    <div class="media">
+        <a href="#"><i class="ri-instagram-fill"></i></a>
+        <a href="#"><i class="ri-youtube-fill"></i></a>
+        <a href="#"><i class="ri-linkedin-fill"></i></a>
+    </div>
+
+
+    <div class="wrapper">
+        <div id="map"></div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+
+    <script src="map.js"></script> <!--Lien Script-->
+
+</body>
+</html>
